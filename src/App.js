@@ -5,7 +5,7 @@ import Navbar from "./component/Navbar";
 import "./index.css";
 function App() {
   return (
-    <div>
+    <div className="font-[arial]">
       <Navbar />
       <Body />
       <Footer />

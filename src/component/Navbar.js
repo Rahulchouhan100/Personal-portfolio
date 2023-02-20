@@ -8,10 +8,10 @@ const Navbar = () => {
   return (
     <>
       <div className="px-5 py-2 flex justify-between items-center">
-        <section className="flex justify-between items-center w-4/6 px-2">
+        <section className="flex  items-center w-4/6 px-2">
           <img src={Logo} alt="logo" className="w-36" />
           <div>
-            <div className="flex items-center justify-center  rounded-full shadow-md">
+            <div className="flex items-center justify-center  rounded-full shadow-md ml-14">
               <input
                 type="text"
                 className="w-[30rem] px-4 py-3 bg-transparent outline-none border-none rounded-full ouline-none text-1xl"
@@ -28,7 +28,7 @@ const Navbar = () => {
           <div>
             <img src={LightIcon} alt="" className="w-6" />
           </div>
-          <div className="rounded-full w-9 h-9 bg-slate-500 ml-5 text-2xl pl-3 text-white">
+          <div className="rounded-full w-7 h-7 bg-slate-500 ml-5 text-2xl  text-white">
             R
           </div>
         </section>
