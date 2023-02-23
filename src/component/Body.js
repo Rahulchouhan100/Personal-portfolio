@@ -10,7 +10,7 @@ const Body = () => {
   return (
     <div>
       <div className="flex ml-[15.5rem] mt-2 justify-between gap-2">
-        <section className="border-2 basis-8/12">
+        <section className=" basis-8/12">
           <h2 className="text-xl text-blue-800 font-normal">
             Rahul Chouhan : Frontend Developer
           </h2>
@@ -22,7 +22,7 @@ const Body = () => {
           </p>
         </section>
         <section className="basis-2/6 mr-14">
-          <div className="border-2 rounded-lg sticky  top-4 right-0">
+          <div className="border rounded-lg sticky  top-4 right-0">
             <aside className=" p-2 flex flex-col justify-center items-center gap-y-3 ">
               <img src={profilePic} alt="" className="w-40" />
               <p className="text-gray-500 text-center">
