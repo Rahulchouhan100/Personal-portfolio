@@ -22,7 +22,7 @@ export const skillDetails = [
   },
   {
     id: 3,
-    skill: "Javscript",
+    skill: "Javascript",
     icon: jsIcon,
   },
   {
@@ -32,7 +32,7 @@ export const skillDetails = [
   },
   {
     id: 5,
-    skill: "Materil UI",
+    skill: "Material UI",
     icon: materialIcon,
   },
   {

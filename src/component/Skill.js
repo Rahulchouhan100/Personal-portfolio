@@ -36,7 +36,7 @@ const Skill = () => {
               <>
                 <div>
                   <div className="px-14 py-5 flex items-center justify-center flex-col shadow-blue-200  shadow-md bg-gray-100 transition-all">
-                    <img src={e.icon} alt="icon" className="w-10" />
+                    <img src={e.icon} alt="icon" className="w-10 mb-2" />
                     <h2 className="text-xl font-bold">{e.skill}</h2>
                   </div>
                 </div>
